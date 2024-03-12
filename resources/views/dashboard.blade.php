@@ -1,6 +1,5 @@
 
 @extends('layouts.app')
-
 @section('content')
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
@@ -151,7 +150,7 @@
       </div>
     </div>
     <!-- Invoice Example -->
-    <div class="col-xl-8 col-lg-7 mb-4">
+    {{-- <div class="col-xl-8 col-lg-7 mb-4">
       <div class="card">
         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
           <h6 class="m-0 font-weight-bold text-primary">Invoice</h6>
@@ -210,9 +209,9 @@
         </div>
         <div class="card-footer"></div>
       </div>
-    </div>
+    </div> --}}
     <!-- Message From Customer-->
-    <div class="col-xl-4 col-lg-5 ">
+    {{-- <div class="col-xl-4 col-lg-5 ">
       <div class="card">
         <div class="card-header py-4 bg-primary d-flex flex-row align-items-center justify-content-between">
           <h6 class="m-0 font-weight-bold text-light">Message From Customer</h6>
@@ -253,8 +252,8 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    </div>--}}
+  </div> 
   <!--Row-->
   <!-- Modal Logout -->
   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabelLogout"

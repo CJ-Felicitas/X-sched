@@ -22,4 +22,10 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::get('/managepatient', function () {
+    return view('manage');
+});
+
+
+
 Route::post('/login', [AuthenticationController::class,'login']);

@@ -9,14 +9,34 @@
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
       <a class="nav-link" href="index.html">
-        <i class="fas fa-fw fa-tachometer-alt"></i>
+        <i class="fas fa-fw fa-tachometer-alt text-primary"></i>
         <span>Dashboard</span></a>
     </li>
-    <hr class="sidebar-divider">
+    <li class="nav-item active">
+      <a class="nav-link" href="/managepatient">
+        <i class="fas fa-user fa-fw text-primary"></i>
+        <span>Manage Patients</span></a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">
+        <i class="fas fa-clock fa-fw text-primary"></i>
+        <span>Activity Logs</span></a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">
+        <i class="fas fa-money-bill fa-fw text-primary"></i>
+        <span>Track Revennue</span></a>
+    </li>
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">
+        <i class="fas fa-users fa-fw text-primary"></i>
+        <span>Manage Staffs</span></a>
+    </li>
+    {{-- <hr class="sidebar-divider">
     <div class="sidebar-heading">
       Features
-    </div>
-    <li class="nav-item">
+    </div> --}}
+    {{-- <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBootstrap"
         aria-expanded="true" aria-controls="collapseBootstrap">
         <i class="far fa-fw fa-window-maximize"></i>
@@ -33,8 +53,8 @@
           <a class="collapse-item" href="progress-bar.html">Progress Bars</a>
         </div>
       </div>
-    </li>
-    <li class="nav-item">
+    </li> --}}
+    {{-- <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseForm" aria-expanded="true"
         aria-controls="collapseForm">
         <i class="fab fa-fw fa-wpforms"></i>
@@ -47,8 +67,8 @@
           <a class="collapse-item" href="form_advanceds.html">Form Advanceds</a>
         </div>
       </div>
-    </li>
-    <li class="nav-item">
+    </li> --}}
+    {{-- <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTable" aria-expanded="true"
         aria-controls="collapseTable">
         <i class="fas fa-fw fa-table"></i>
@@ -61,18 +81,18 @@
           <a class="collapse-item" href="datatables.html">DataTables</a>
         </div>
       </div>
-    </li>
-    <li class="nav-item">
+    </li> --}}
+    {{-- <li class="nav-item">
       <a class="nav-link" href="ui-colors.html">
         <i class="fas fa-fw fa-palette"></i>
         <span>UI Colors</span>
       </a>
-    </li>
-    <hr class="sidebar-divider">
+    </li> --}}
+    {{-- <hr class="sidebar-divider">
     <div class="sidebar-heading">
-      Examples
-    </div>
-    <li class="nav-item">
+     Test
+    </div> --}}
+    {{-- <li class="nav-item">
       <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePage" aria-expanded="true"
         aria-controls="collapsePage">
         <i class="fas fa-fw fa-columns"></i>
@@ -87,14 +107,15 @@
           <a class="collapse-item" href="blank.html">Blank Page</a>
         </div>
       </div>
-    </li>
-    <li class="nav-item">
+    </li> --}}
+    {{-- <li class="nav-item">
       <a class="nav-link" href="charts.html">
         <i class="fas fa-fw fa-chart-area"></i>
         <span>Charts</span>
       </a>
-    </li>
+    </li> --}}
     <hr class="sidebar-divider">
-    <div class="version" id="version-ruangadmin"></div>
+    
+    {{-- <div class="version" id="version-ruangadmin"></div> --}}
   </ul>
   <!-- Sidebar -->

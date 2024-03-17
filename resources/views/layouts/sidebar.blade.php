@@ -8,7 +8,7 @@
     </a>
     <hr class="sidebar-divider my-0">
     <li class="nav-item active">
-      <a class="nav-link" href="index.html">
+      <a class="nav-link" href="/dashboard">
         <i class="fas fa-fw fa-tachometer-alt text-primary"></i>
         <span>Dashboard</span></a>
     </li>
@@ -18,7 +18,7 @@
         <span>Manage Patients</span></a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="index.html">
+      <a class="nav-link" href="activity">
         <i class="fas fa-clock fa-fw text-primary"></i>
         <span>Activity Logs</span></a>
     </li>

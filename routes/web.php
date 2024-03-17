@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\AuthenticationController;
+use App\Http\Controllers\TestController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,6 +28,6 @@ Route::get('/managepatient', function () {
     return view('manage');
 });
 
-
+Route::get('/getusers', [TestController::class,'getUsers']);
 
 Route::post('/login', [AuthenticationController::class,'login']);

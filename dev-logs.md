@@ -1,0 +1,20 @@
+### Mark Up Rehabilitation Center
+
+```
+March 26 2024
+
+SOD
+- create the interface for the staff
+- create the page where the staff registers the client
+- test the site
+
+EOD
+- created a middleware for the site
+- created a page restriction as well as filter for clerk and admin
+- created some few migrations
+- added an enums class for UserTypes
+```
+
+```
+March 27 2024
+```

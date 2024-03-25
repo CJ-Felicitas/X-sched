@@ -16,18 +16,40 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
-
+// routes that are open to all
 Route::get('/', function () {
     return view('login');
 });
 
-Route::get('/managepatient', function () {
-    return view('manage');
+// peform login or authentication for the user
+Route::post('/login', [AuthenticationController::class,'login']);
+
+
+// web routes that are exclusive to the administrators
+Route::prefix('admin')->middleware('adminroutes')->group(function () {
+    
+    // dashboard for the admin page
+    Route::get('/dashboard', function () {
+        return view('admin.dashboard');
+    });
+
+    // manage patient for the admin page
+    Route::get('/managepatient', function () {
+        return view('admin.manage');
+    });
+
 });
 
-Route::get('/getusers', [TestController::class,'getUsers']);
 
-Route::post('/login', [AuthenticationController::class,'login']);
+
+// web routes that are exclusive to the staff page
+Route::prefix('staff')->middleware('staffroutes')->group(function () {
+    // routes for staff here
+});
+
+
+
+
+
+
+

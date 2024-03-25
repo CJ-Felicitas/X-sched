@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link href="uikit/img/logo/logo.png" rel="icon">
-  <title>RuangAdmin - Login</title>
+  <title>Mark Up - Login</title>
   <link href="uikit/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="uikit/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="uikit/css/ruang-admin.min.css" rel="stylesheet">

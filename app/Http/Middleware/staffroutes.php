@@ -21,7 +21,7 @@ class staffroutes
     {
         $user = Auth::user();
 
-        if ($user->user_type == UserTypeEnum::Administrator) {
+        if ($user->user_type_id == UserTypeEnum::Administrator) {
             Session::flush();
             $request->session()->invalidate();
             $request->session()->regenerateToken();

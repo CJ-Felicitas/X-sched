@@ -21,7 +21,7 @@ class adminroutes
     {
         // check the current user if it is admin or staff
         $user = Auth::user();
-        if ($user->user_type != UserTypeEnum::Administrator) {
+        if ($user->user_type_id != UserTypeEnum::Administrator) {
             Session::flush();
             $request->session()->invalidate();
             // $request->session()->regenerateToken();

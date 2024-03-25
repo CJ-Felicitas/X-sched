@@ -25,6 +25,7 @@ class UserSeeder extends Seeder
                 'password' => Hash::make('admin'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
+                'user_type_id' => 1
             ],
             [
                 'name' => 'Nikki Militar',
@@ -33,6 +34,7 @@ class UserSeeder extends Seeder
                 'password' => Hash::make('admin'),
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
+                'user_type_id' => 1
             ],
             // Add more patient data as needed
         ];

@@ -1,5 +1,7 @@
 ### Mark Up Rehabilitation Center
 
+## Dev Logs/Activities
+
 ```
 March 26 2024
 

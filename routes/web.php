@@ -27,7 +27,6 @@ Route::post('/login', [AuthenticationController::class,'login']);
 
 // web routes that are exclusive to the administrators
 Route::prefix('admin')->middleware('adminroutes')->group(function () {
-    
     // dashboard for the admin page
     Route::get('/dashboard', function () {
         return view('admin.dashboard');
@@ -35,16 +34,18 @@ Route::prefix('admin')->middleware('adminroutes')->group(function () {
 
     // manage patient for the admin page
     Route::get('/managepatient', function () {
-        return view('admin.manage');
+        return redirect('admin.manage');
     });
 
 });
 
 
-
 // web routes that are exclusive to the staff page
 Route::prefix('staff')->middleware('staffroutes')->group(function () {
-    // routes for staff here
+    // manage patient fot the clerk page
+    Route::get('/managepatient', function () {
+        return view('clerk.manage');
+    });
 });
 
 

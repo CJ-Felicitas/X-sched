@@ -1,7 +1,20 @@
 # Mark Up Rehabilitation Center
 
 ### Dev Logs/Activities
+```
+March 27 2024
 
+SOD
+- continue to create the interface for the staff
+- continue to create the page where the staff registers the client
+- test the site 
+
+
+EOD
+- create the interface for the staff [Pending]
+- create the page where the staff registers the client [Pending]
+```
+s
 ```
 March 26 2024
 
@@ -16,7 +29,4 @@ EOD
 - created some few migrations
 - added an enums class for UserTypes
 ```
-
-```
-March 27 2024
-```
+ 

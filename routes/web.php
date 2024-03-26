@@ -46,6 +46,11 @@ Route::prefix('staff')->middleware('staffroutes')->group(function () {
     Route::get('/managepatient', function () {
         return view('clerk.manage');
     });
+
+    Route::get('/enrollstudent', function () {
+        return view('clerk.enroll');
+    });
+
 });
 
 

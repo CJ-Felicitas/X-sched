@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-@include('layouts.header')
+  <head>
+    @include('layouts.header')
+    @yield('custom-css')
+    <title>@yield('title')</title>
+  </head>
+
 <body id="page-top">
   <div id="wrapper">
     @include('layouts.sidebar')
@@ -17,6 +22,7 @@
     <i class="fas fa-angle-up"></i>
   </a>
 @include('layouts.script')
+@yield('custom-script')
 </body>
 
 </html>
